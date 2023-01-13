@@ -33,35 +33,19 @@
 <body>
 
   <!-- ======= Header ======= -->
+
   <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center">
-
-      <h1>Maundy</h1>
-      <h2>We're working hard to improve our website and we'll ready to launch after</h2>
-      <div class="countdown d-flex justify-content-center" data-count="2023/12/3">
-        <div>
-          <h3>%d</h3>
-          <h4>Days</h4>
-        </div>
-        <div>
-          <h3>%h</h3>
-          <h4>Hours</h4>
-        </div>
-        <div>
-          <h3>%m</h3>
-          <h4>Minutes</h4>
-        </div>
-        <div>
-          <h3>%s</h3>
-          <h4>Seconds</h4>
-        </div>
+    <div class="container d-flex flex-column align-items-center text-center">
+      <div class="container align-items-center text-center p-2">
+        <img src="assets/img/K2.png" alt="K2 logo" class="K2-logo img-responsive">
       </div>
-
+      <h1>Viens gravir des sommets avec {K2/</h1>
+      <h2>Une expérience unique en son genre, gonflée à bloc entre code et grimpe !</h2>
       <div class="subscribe">
-        <h4>Subscribe now to get the latest updates!</h4>
+        <h4>Rejoins-nous dès maintenant pour ne pas manquer les prochaines sessions</h4>
         <form action="forms/notify.php" method="post" role="form" class="php-email-form">
           <div class="subscribe-form">
-            <input type="email" name="email" required><input type="submit" value="Subscribe">
+            <input type="email" name="email" required><input type="submit" value="S'inscrire">
           </div>
           <div class="mt-2">
             <div class="loading">Loading</div>
@@ -70,6 +54,39 @@
           </div>
         </form>
       </div>
+      <br>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm py-6">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <h5 class="card-title">Dev Ops</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">23 janvier 2023 - 8 semaines</h6>
+                  <p class="card-text">Une formation intense pour acquérir les compétences du DevOps.</p>
+                  <p class="card-text">Commence à faire tes premières 6a en bloc en fin de formation.</p>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="btn btn-primary">S'inscrire</a>       
+                </div>
+              </div>
+            </div>
+            <div class="col-sm py 6">
+              <div class="card shadow-lg">
+                <div class="card-body">
+                  <h5 class="card-title">Full Stack</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">5 juin 2023 - 12 semaines</h6>
+                  <p class="card-text">Une formation intense pour acquérir les compétences du Dev Full Stack.</p>
+                  <p class="card-text">Commence à faire tes premières 6c en bloc en fin de formation.</p>
+                </div>
+                <div class="card-footer">
+                    <a href="#" class="btn btn-primary">S'inscrire</a>
+                </div>
+              </div>
+              </div>
+          </div>
+    </div>
+
+    <br>
 
       <div class="social-links text-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -210,5 +227,7 @@
   <script src="assets/js/main.js"></script>
 
 </body>
+
+
 
 </html>
