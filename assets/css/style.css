@@ -108,15 +108,14 @@ h6 {
 }
 
 .K2-logo {
-  height: 240px;
-  width: 240px;
+  height: 200px;
+  width: 200px;
 }
 
 .card {
   color: black;
   background-color: rgba(255, 255, 255);
-  box-shadow: rgb(0, 0, 0);
-  height: 260px;
+  height: 100%;
 }
 
 .card-text {
